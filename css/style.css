@@ -10,24 +10,25 @@ body{
     padding: 0;
 }
 nav{
-   margin-top: 50px;
-    margin-left: 300px;
+   margin-top: 45px;
     padding: 0;
     width: 100%;
+    text-align: center;
 
 }
 nav ul li{
     display: inline;
     text-decoration: none;
-    padding: 14px;
     list-style: none;
+    text-align: center;
 }
 .green{
      background-color: rgb(8,126,85);
 }
 /*Styling for the links*/
 nav ul li{
-    padding: 15px;
+    padding-left: 45px;
+    padding-right: 55px;
 }
 nav ul li:hover{
     border-bottom: 2px solid white;
@@ -38,6 +39,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 25px;
     color: white;
+    text-align: center;
 }
 nav ul li a:hover{
         color: rgb(182,213,0)
