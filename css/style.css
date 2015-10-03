@@ -24,3 +24,18 @@ nav ul li{
 .green{
      background-color: rgb(81,126,85);
 }
+/*Styling for the links*/
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+nav ul li a:hover{
+    border-bottom: 1px color white;
+}
+nav ul li a:active{
+    border-bottom: 1px color yellow;
+}
+nav ul li a:visited{
+    border-bottom: 1px color red;
+}
