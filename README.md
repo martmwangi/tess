@@ -1,2 +1,2 @@
 # tess
-Personal website for Tess Wangeci
+Personal website for an environmentalist
