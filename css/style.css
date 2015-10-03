@@ -1,19 +1,22 @@
 header{
     position: fixed;
-    height: 100px;
+    height: 140px;
     width: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    z-index: 10000000;
 }
 body{
     margin: 0;
     padding: 0;
 }
 nav{
-   margin-top: 45px;
+   margin-top: 55px;
     padding: 0;
     width: 100%;
     text-align: center;
+    text-decoration: none;
 
 }
 nav ul li{
@@ -21,26 +24,34 @@ nav ul li{
     text-decoration: none;
     list-style: none;
     text-align: center;
+    padding: 15px;
+
 }
 .green{
      background-color: rgb(8,126,85);
 }
 /*Styling for the links*/
+nav ul a{
+    text-decoration: none;
+}
 nav ul li{
     padding-left: 45px;
     padding-right: 55px;
+    text-decoration: none;
 }
-nav ul li:hover{
+nav ul a li:hover{
+
     border-bottom: 2px solid white;
 
 }
-nav ul li a{
+nav ul a li{
     display: inline;
     text-decoration: none;
     font-size: 25px;
     color: white;
     text-align: center;
 }
-nav ul li a:hover{
+nav ul a li:hover{
         color: rgb(182,213,0)
+            text-decoration: none;
 }
