@@ -10,7 +10,8 @@ body{
     padding: 0;
 }
 nav{
-    margin-top: 30px;
+   margin-top: 50px;
+    margin-left: 300px;
     padding: 0;
     width: 100%;
 
@@ -22,27 +23,22 @@ nav ul li{
     list-style: none;
 }
 .green{
-     background-color: rgb(81,126,85);
+     background-color: rgb(8,126,85);
 }
 /*Styling for the links*/
 nav ul li{
     padding: 15px;
 }
 nav ul li:hover{
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid white;
+
 }
 nav ul li a{
+    display: inline;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     color: white;
 }
 nav ul li a:hover{
-    border-bottom: 1px color white;
-    color: palevioletred;
-}
-nav ul li a:active{
-    border-bottom: 1px color yellow;
-}
-nav ul li a:visited{
-    border-bottom: 1px color red;
+        color: rgb(182,213,0)
 }
