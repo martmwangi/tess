@@ -25,6 +25,12 @@ nav ul li{
      background-color: rgb(81,126,85);
 }
 /*Styling for the links*/
+nav ul li{
+    padding: 15px;
+}
+nav ul li:hover{
+    border-bottom: 2px solid yellow;
+}
 nav ul li a{
     text-decoration: none;
     font-size: 18px;
@@ -32,6 +38,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     border-bottom: 1px color white;
+    color: palevioletred;
 }
 nav ul li a:active{
     border-bottom: 1px color yellow;
