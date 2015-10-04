@@ -55,3 +55,12 @@ nav ul a li:hover{
         color: rgb(182,213,0)
             text-decoration: none;
 }
+/*
+
+
+
+Styling the container*/
+
+.col s6{
+    border: 1px solid black;
+}
