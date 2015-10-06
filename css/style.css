@@ -1,6 +1,6 @@
 header{
     position: fixed;
-    height: 140px;
+    height: 110px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ nav ul li{
     text-decoration: none;
 }
 nav ul a li:hover{
-
+    color: rgb(182,213,0);
     border-bottom: 2px solid white;
 
 }
@@ -55,6 +55,12 @@ nav ul a li:hover{
         color: rgb(182,213,0)
             text-decoration: none;
 }
+
+.hvr-underline-from-center{
+    background: green;
+}
+
+
 /*
 
 
