@@ -18,6 +18,9 @@ nav{
     font-family: cabin-sketch;
     z-index: 99;
     overflow: hidden;
+    text-align: center;
+    position: fixed;
+
 }
 nav ul li{
     padding: 19px;
@@ -31,15 +34,26 @@ nav ul li a{
 
 }
 .sect{
-    height: 75%;
+
     width: 100%;
     background-color:deeppink;
 
 }
 #test{
-    height: 60%;
+
     width: 100%;
     background-image: url(../images/pro.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
+#bio{
+    background-image: url(../images/prof.jpg);
+ ;
+
+}
+gallery{
+    background-color: fuchsia;
+
+    width: 100%;
+}
+
