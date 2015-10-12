@@ -9,6 +9,7 @@ body{
     background-image: url(../images/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 nav{
     width: 100%;
@@ -28,4 +29,17 @@ nav ul li{
 nav ul li a{
     padding: 20px;
 
+}
+.sect{
+    height: 75%;
+    width: 100%;
+    background-color:deeppink;
+
+}
+#test{
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/pro.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
