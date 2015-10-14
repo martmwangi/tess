@@ -64,21 +64,9 @@ nav ul :hover{
     background-color:deeppink;
 
 }
-#test{
+#test{}
 
-    width: 100%;
-    background-image: url(../images/pro.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-#bio{
-    background-image: url(../images/prof.jpg);
- ;
-
-}
 gallery{
-    background-color: fuchsia;
 
-    width: 100%;
 }
 
