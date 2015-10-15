@@ -19,14 +19,11 @@ nav{
     z-index: 99;
     overflow: hidden;
     text-align: center;
-    position: fixed;
+    position: absolute;
+    margin-top: -25px;
 
 }
-/*
-.siz{
-    font-size: 28px;
-}
-*/
+
 nav ul a li{
     text-decoration: none;
     font-size: 25px;
@@ -56,17 +53,5 @@ nav ul a{
 nav ul :hover{
     color: white;
     border-radius: 5px;
-}
-
-.sect{
-
-    width: 100%;
-    background-color:deeppink;
-
-}
-#test{}
-
-gallery{
-
 }
 
