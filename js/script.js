@@ -1,4 +1,5 @@
 $('.tlt').textillate({
-    in: {effect: rollIn, delay:10sec}
-
+  in: { effect: 'splat' },
+  out: { effect: 'foldUnfold', sync: true },
+  loop: true
 });
