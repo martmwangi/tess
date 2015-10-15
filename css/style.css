@@ -1,12 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 header{
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-top: -90px;
+
 }
 nav{
     width: 100%;
@@ -51,6 +48,20 @@ nav ul :hover{
     border-radius: 5px;
 }
 #profile{
-    margin-left: 30px;
-    margin-top: 100px;
+    color: white;
+    padding-top: 300px;
+
+}
+.green-tran{
+    background-color: rgb(13,170,10);
+    opacity: .50;
+    filter: alpha(opacity=50);
+    -ms-filter: "alpha(opacity=50)";
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+}
+.resume{
+    border: 1px solid green;
+    width: 90px;
+    text-align: center;
 }
