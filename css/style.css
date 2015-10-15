@@ -46,8 +46,13 @@ nav ul :hover{
     border-radius: 5px;
 }
 #profile{
+    float: left;
+    margin-left: 30px;
+    margin-top: 200px;
+    width: 55%;
     color: white;
     padding-top: 300px;
+    border-radius: 10px;
 
 }
 .green-tran{

@@ -1,5 +1,14 @@
-$('.tlt').textillate({
-  in: { effect: 'splat' },
-  out: { effect: 'foldUnfold', sync: true },
-  loop: true
+$(function(){
+    $('.tlt').textillate({ in : {
+            effect: 'flash',
+            shuffle: false,
+            sync: true
+        },
+        /*out: {
+            effect: 'fadeOutRightBig',
+            shuffle: false,
+            sync: true
+        },*/
+        loop: true
+    });
 });
