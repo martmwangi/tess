@@ -38,12 +38,7 @@ nav ul a li {
     text-decoration: none;
 
 }
-#hands{
-    height: 50vh;
-    background-image: url(../images/hike.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+
 }
 .dark-green{
     background-color: rgb(24,44,24);
@@ -119,4 +114,23 @@ h1{
     font-family: poly;
     font-size: 20px;
 }
+
+/*Bio Section*/
+#hands{
+    height: 70vh;
+    background-image: url(../images/hike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#bio{
+    text-align: center;
+    height: 80vh;
+    background-color: white;
+}
+
+
+
+
+
 
