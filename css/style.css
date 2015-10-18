@@ -54,24 +54,24 @@ nav ul :hover{
     height: 90vh;
     padding-top: 200px;
 
-
+}
+h1{
+    font-size: 55px;
+}
+.pro{
+    font-size: 60px;
 }
 #profile{
     color: black;
     font-family: alex-brush;
-    font-size: 30px;
     margin-left: 10px;
     border-radius: 5px;
     width: 80%;
     display: inline-block;
 
-
-
 }
-#img{
 
 
-}
 .green-tran{
     background-color: rgb(82,185,0);
 }
