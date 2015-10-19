@@ -5,16 +5,11 @@ header{
     position: fixed;
     z-index: 150;
 }
-.navbar, .navbar-header, .nabar-default , .navbar-fixed-top, .navbar-header, .navbar-nav, .navbar-inverse, .nav , .collapse , .navbar-collapse{
-
-}
-
 .txt-white{
-    text-align: center;
     text-decoration: none;
     color: white;
     font-size: 30px;
-    font-family: 'Ubuntu';
+    font-family: 'Robot';
  }
 .txt-white:hover{
     color: rgb(182,213,0);
@@ -33,28 +28,17 @@ header{
 .dark-grey{
     background-color: rgb(28,26,38);
 }
-/*
-nav ul a{
-    text-decoration: none;
-}
-nav ul :hover{
-    color: white;
-    border-radius: 5px;
-}
-.black{
-*/
+
     background-color: rgb(97,92,90);
 }
 #landing{
-    max-width: 100%;
+    padding-top: 20%;
+
     height: 90vh;
-    padding-top: 450px;
-
 
 }
-a{
-    text-decoration: none;
-}
+
+
 h1{
     font-size: 55px;
 }
@@ -76,20 +60,20 @@ h1{
     border: 4px solid green;
 }
 .pro, tlt{
-    font-size: 80px;
+    font-size: 60px;
 }
 #profile{
     color: white;
     font-family: annie-use-your-telescope;
-    margin-left: 10px;
-    border-radius: 5px;
     display: inline-block;
-    padding-left: 200px;
+    padding-left: 100px;
+    padding-top:  50%;
 }
 
 #img{
     display: inline-block;
-
+    padding-top:  30%;
+    padding-bottom: 15%;
     padding-left: 100px;
 
 }
